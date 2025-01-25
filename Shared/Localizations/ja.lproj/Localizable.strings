@@ -52,7 +52,7 @@
 // Installer Error Description
 "ERROR_INSTALLER_DESCRIPTION" = "SSL証明書の読み込みに失敗しました。";
 "ERROR_ZSIGN_FAILED" = "署名に失敗しました。";
-"ERROR_FAILED_TO_READ_MOBILEPROVISION" = "mobileprovisionファイルの読み込みに失敗しました";
+"ERROR_FAILED_TO_READ_MOBILEPROVISION" = "mobileprovisionファイルの読み込みに失敗しました。";
 
 // MARK: - Success messages
 // Successfully signed an application
@@ -76,7 +76,7 @@
 "ONBOARDING_CELL_3_DESCRIPTION" = "AltStoreリポジトリ、ipaのインポート、簡単に証明書を切り替える、などなど。";
 // "Developed by Samara. Made for users who are passionate for sideloading and freedom. Many features included inside. Learn more..."
 "ONBOARDING_FOOTER" = "Samaraによって開発。サイドローディングと自由を求めるユーザーのために作られました。たくさんの機能が詰め込まれています。";
-"ONBOARDING_FOOTER_LINK" = "詳しく知る";
+"ONBOARDING_FOOTER_LINK" = "詳しく知る...";
 // Continue button to exit onboarding
 "ONBOARDING_CONTINUE_BUTTON" = "続ける";
 
@@ -231,6 +231,9 @@
 "APP_SIGNING_INPUT_VIEW_CONTROLLER_REMOVE_ALLOW_ITUNES_SHARING" = "iTunes共有を許可する";
 "APP_SIGNING_INPUT_VIEW_CONTROLLER_REMOVE_ALLOW_ITUNES_SHARING_DESCRIPTION" = "iTunesやFinder間で共有できるようにするため、アプリがDocumentsディレクトリを共有するように強制します。";
 
+"APP_SIGNING_INPUT_VIEW_CONTROLLER_REMOVE_FORCE_GAME_MODE" = "ゲームモードを強制する";
+"APP_SIGNING_INPUT_VIEW_CONTROLLER_REMOVE_FORCE_PRO_MOTION_DESCRIPTION" = "アプリ内でゲームモードを有効化して、バックグラウンドのアクティビティを最小限に抑えることでアプリのパフォーマンスを優先します。";
+
 "APP_SIGNING_INPUT_VIEW_CONTROLLER_REMOVE_FORCE_PRO_MOTION" = "ProMotionを強制する";
 "APP_SIGNING_INPUT_VIEW_CONTROLLER_REMOVE_FORCE_PRO_MOTION_DESCRIPTION" = "アプリ内でPromotion機能を有効にしますが、15.x以下の低いバージョンでは使えないかもしれません。";
 
@@ -241,7 +244,7 @@
 "APP_SIGNING_INPUT_VIEW_CONTROLLER_REMOVE_DELETE_PLACEHOLDER_WATCH_APP_DESCRIPTION" = "YouTube musicなどのアプリに存在する、不必要なWatchアプリのプレースホルダを削除します。";
 
 "APP_SIGNING_INPUT_VIEW_CONTROLLER_FORCELOCALIZATIONS" = "ローカライズを強制する";
-"APP_SIGNING_INPUT_VIEW_CONTROLLER_FORCELOCALIZATIONS_DESCRIPTION" = "ローカライズ可能なlocalizableバンドルを修正して、アプリ名の変更が反映されるようにします。";
+"APP_SIGNING_INPUT_VIEW_CONTROLLER_FORCELOCALIZATIONS_DESCRIPTION" = "全てのlocalizableバンドルを修正して、アプリ名の変更が反映されるようにします。";
 
 "APP_SIGNING_INPUT_VIEW_CONTROLLER_REMOVE_PROVISIONING" = "プロビジョニングファイルの削除";
 "APP_SIGNING_INPUT_VIEW_CONTROLLER_REMOVE_PROVISIONING_DESCRIPTION" = "署名後に.mobileprovisionファイルがアプリ内に残らないようにします。";
@@ -347,13 +350,13 @@
 "DISPLAY_VIEW_CONTROLLER_SECTION_TITLE_STORE" = "ストア";
 
 "DISPLAY_VIEW_CONTROLLER_CELL_DEFAULT_SUBTITLE" = "デフォルトのサブタイトル";
-"DISPLAY_VIEW_CONTROLLER_CELL_DEFAULT_SUBTITLE_DESCRIPTION" = "featherのデフォルトスタイルです。ローカライズされた説明を隠してサブタイトルのみ含ませる。";
+"DISPLAY_VIEW_CONTROLLER_CELL_DEFAULT_SUBTITLE_DESCRIPTION" = "featherのデフォルトスタイルです。ローカライズされた説明を隠してサブタイトルのみ含ませます。";
 
 "DISPLAY_VIEW_CONTROLLER_CELL_LOCALIZED_SUBTITLE" = "ローカライズされたサブタイトル";
-"DISPLAY_VIEW_CONTROLLER_CELL_LOCALIZED_SUBTITLE_DESCRIPTION" = "サブタイトルをアプリの説明に置き換える。";
+"DISPLAY_VIEW_CONTROLLER_CELL_LOCALIZED_SUBTITLE_DESCRIPTION" = "サブタイトルをアプリの説明に置き換えます。";
 
 "DISPLAY_VIEW_CONTROLLER_CELL_BIG_DESCRIPTION" = "大きな説明欄";
-"DISPLAY_VIEW_CONTROLLER_CELL_BIG_DESCRIPTION_DESCRIPTION" = "スクリーンショットとアプリの説明に置き換える。";
+"DISPLAY_VIEW_CONTROLLER_CELL_BIG_DESCRIPTION_DESCRIPTION" = "スクリーンショットとアプリの説明に置き換えます。";
 
 "DISPLAY_VIEW_CONTROLLER_CELL_TEAM_NAME" = "チーム名を使用";
 "DISPLAY_VIEW_CONTROLLER_CELL_TEAM_NAME_DESCRIPTION" = "証明書の名前をチーム名に置き換えます。プロバイダが常に同じApp IDを使用している場合、証明書を区別するのに便利です。";
@@ -393,7 +396,7 @@
 "CERT_IMPORTING_VIEWCONTROLLER_CELL_IMPORT_PW" = "パスワード";
 
 "CERT_IMPORTING_VIEWCONTROLLER_FOOTER_PROV" = "プロビジョニングファイルをインポートして、デバイスにサイドロードできるようにします。";
-"CERT_IMPORTING_VIEWCONTROLLER_FOOTER_CERT" = "有効な証明書を含むファイルをインポートする。";
+"CERT_IMPORTING_VIEWCONTROLLER_FOOTER_CERT" = "有効な証明書を含むファイルをインポートします。。";
 "CERT_IMPORTING_VIEWCONTROLLER_FOOTER_PASS" = "秘密鍵に関連付けられたパスワードを入力します。パスワードが必要ない場合空白のままにしてください。";
 
 // MARK: - SettingsViewController -> ResetViewController
